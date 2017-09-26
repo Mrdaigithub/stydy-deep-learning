@@ -19,3 +19,22 @@
 ```newValue = (oldValue - min) / (max-min)```
 
 -----------------
+
+
+## 2. Decision tree (决策树-ID3)
+
+### description: 
+
+```通过计算熵来获取信息增量，而取得局部最优的feature来划分数据集，最后通过递归来构建决策树```
+
+
+### formula:
+
+
+计算数据集的熵: 
+
+p(xi)是选择该分类的概率
+
+![entropy](./images/entropy.png)
+
+-----------------
